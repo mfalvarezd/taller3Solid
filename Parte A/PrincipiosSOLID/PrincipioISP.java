@@ -7,13 +7,13 @@ public class PrincipioISP {
     }
     class interface Vehiculo_rueda{
 
-        void moverse();
+        void moverse();//Teniendo en cuenta que es la accion que hacen los vehiculos de rueda para decir que estan moviendose de lugar
 
 
 
     }
     class interface Vehiculo_Aeronave{
-        void despegar();
+        void despegar();//accion unica de las aeronaves ya que los carros no tienen esta caracteristica
 
     }
     class Carro implements Vehiculo, Vehiculo_rueda{
