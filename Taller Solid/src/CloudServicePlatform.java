@@ -2,7 +2,7 @@ public class CloudServicePlatform {
     private int cloudServicePlatform;
     Platform[] plataformas = { new Aws(),new MicrosoftAzure(),new GoogleCloud()};
     public void hostingTo (AppWeb app) {
-        System.out.println("Connect to" + plataformas[cloudServicePlatform+1].nombre());
+        System.out.println("Connect to" + plataformas[cloudServicePlatform-1].nombre());
     }
 
     // More Methods
