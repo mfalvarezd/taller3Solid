@@ -2,6 +2,8 @@ package taller3Solid;
 
 public class PrincipioLSP {
 	
+	//Código donde SI se aplica el Principio LSP
+	
 	public class Vehiculo {
 	    public void mover() {
 	        System.out.println("El vehículo se está moviendo.");
